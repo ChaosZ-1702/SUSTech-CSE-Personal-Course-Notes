@@ -1,0 +1,916 @@
+INCREMENT ISE_Vivado_Seth xilinxd 2016.05 22-dec-2116 uncounted \
+	3C6356438BBB VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=2692407267@qq.com START=18-Sep-2012 TS_OK
+PACKAGE ISE_Vivado_Seth xilinxd 2016.05 A42C1F6F89A7 COMPONENTS="ISE \
+	ChipscopePro ChipscopePro_SIOTK ISim PlanAhead XPS SDK SysGen \
+	Vivado Rodin_Synthesis Rodin_Implementation AccelDSP HLS \
+	PartialReconfiguration Vivado_HLS Rodin_SystemBuilder \
+	AUTOESL_FLOW AUTOESL_CC AUTOESL_OPT AUTOESL_SC AUTOESL_XILINX \
+	Simulation Implementation Analyzer Synthesis HLS_Synthesis \
+	XC7V2000T XC7V2000T_BITGEN XC7V1500T XC7V1500T_BITGEN \
+	petalinux_arch_ppc petalinux_arch_microblaze \
+	petalinux_arch_zynq" OPTIONS=SUITE
+#MAIN
+INCREMENT System_Edition xilinxd 2025.01 permanent uncounted \
+	1371843265FE \
+	VENDOR_STRING=something@my.door,System_Edition,software,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT Web_Package xilinxd 2025.01 permanent uncounted \
+	EE5018CCD783 \
+	VENDOR_STRING=something@my.door,Web_Package,software,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+PACKAGE System_Edition xilinxd 2025.01 9038C5F9B5F5 COMPONENTS="SDK \
+	ChipScopePro_SIOTK ChipscopePro ISE ISIM PlanAhead SysGen XPS" \
+	OPTIONS=SUITE
+PACKAGE Web_Package xilinxd 2025.01 97673F50F7EB \
+	COMPONENTS="PlanAhead WebPACK" OPTIONS=SUITE
+#EDK
+FEATURE apu_fpu_v2 xilinxd 2110.12 permanent uncounted 2F50B62A75CC \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE apu_fpu_virtex5_v1 xilinxd 2110.12 permanent uncounted \
+	2A331C3D638E VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE plbv46_pci_v1 xilinxd 2110.12 permanent uncounted \
+	07AE929D13E2 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE plbv46_pcie_v3 xilinxd 2110.12 permanent uncounted \
+	0C56C86E7FA5 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE soft_temac_wrap_v1 xilinxd 2110.12 permanent uncounted \
+	C7FA25C2C38A VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE soft_temac_wrap_v2 xilinxd 2110.12 permanent uncounted \
+	0C260E3C5466 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_can_v1 xilinxd 2110.12 permanent uncounted FBE92575D461 \
+	VENDOR_STRING=License_Type:Design_Linking HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_can_v2 xilinxd 2110.12 permanent uncounted 34A82B5DFD66 \
+	VENDOR_STRING=License_Type:Design_Linking HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_ethernetlite_v1 xilinxd 2110.12 permanent uncounted \
+	34ACF0A914C1 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_flexray_v1 xilinxd 2110.12 permanent uncounted \
+	B00336C95E59 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_iic_v1 xilinxd 2110.12 permanent uncounted 4D5EB5133C34 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xps_iic_v2 xilinxd 2110.12 permanent uncounted 6EE984B9F3C8 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xps_ll_temac_v1 xilinxd 2110.12 permanent uncounted \
+	7D665FB969EA VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_ll_temac_v2 xilinxd 2110.12 permanent uncounted \
+	B874A6102E8B VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_most_nic_v1 xilinxd 2110.12 permanent uncounted \
+	A71A67AFB0E3 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_uart16550_v1 xilinxd 2110.12 permanent uncounted \
+	68F9A54575F2 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_usb2_device_v1 xilinxd 2110.12 permanent uncounted \
+	7756ECA93AF4 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_usb2_device_v2 xilinxd 2110.12 permanent uncounted \
+	711551A373A0 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_usb_host_v1 xilinxd 2110.12 permanent uncounted \
+	3F7AC1E0FBE3 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+INCREMENT apu_fpu xilinxd 2110.12 permanent uncounted F6F6B90A98CA \
+	VENDOR_STRING=License_Type:Bought;ipman,apu_fpu,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT apu_fpu_virtex5 xilinxd 2110.12 permanent uncounted \
+	E6F38ECF44A4 \
+	VENDOR_STRING=License_Type:Bought;ipman,apu_fpu_virtex5,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT axi_can xilinxd 2110.12 permanent uncounted EBC985372293 \
+	VENDOR_STRING=License_Type:Bought;ipman,axi_can,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT axi_ethernet_avb xilinxd 2110.12 permanent uncounted \
+	7319C6A31512 \
+	VENDOR_STRING=License_Type:Bought;ipman,axi_ethernet_avb,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT axi_ethernet_soft_10_100 xilinxd 2110.12 permanent \
+	uncounted F37E53F98FEC \
+	VENDOR_STRING=License_Type:Bought;ipman,axi_ethernet_soft_10_100,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT axi_ethernet_soft_tri_mode xilinxd 2110.12 permanent \
+	uncounted 1131BB782946 \
+	VENDOR_STRING=License_Type:Bought;ipman,axi_ethernet_soft_tri_mode,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT axi_usb2_device xilinxd 2110.12 permanent uncounted \
+	1EFDCDAD0AD0 \
+	VENDOR_STRING=License_Type:Bought;ipman,axi_usb2_device,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT plbv46_pci xilinxd 2110.12 permanent uncounted 66C6960FE1B7 \
+	VENDOR_STRING=License_Type:Bought;ipman,plbv46_pci,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT plbv46_pcie xilinxd 2110.12 permanent uncounted \
+	A3B19B1298D0 \
+	VENDOR_STRING=License_Type:Bought;ipman,plbv46_pcie,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT soft_temac_wrap xilinxd 2110.12 permanent uncounted \
+	723F4B853D3F \
+	VENDOR_STRING=License_Type:Bought;ipman,soft_temac_wrap,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_can xilinxd 2110.12 permanent uncounted ED707F89CFBA \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,xps_can,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_ethernetlite xilinxd 2110.12 permanent uncounted \
+	195D2D94D3CA \
+	VENDOR_STRING=License_Type:Bought;ipman,xps_ethernetlite,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_flexray xilinxd 2110.12 permanent uncounted \
+	CC49B5E6FD0F \
+	VENDOR_STRING=License_Type:Bought;ipman,xps_flexray,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_iic xilinxd 2110.12 permanent uncounted 0AAB866F6A52 \
+	VENDOR_STRING=License_Type:Bought;ipman,xps_iic,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_ll_temac xilinxd 2110.12 permanent uncounted \
+	BBFC27FCF961 \
+	VENDOR_STRING=License_Type:Bought;ipman,xps_ll_temac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_most_nic xilinxd 2110.12 permanent uncounted \
+	DFE37B0118ED \
+	VENDOR_STRING=License_Type:Bought;ipman,xps_most_nic,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_uart16550 xilinxd 2110.12 permanent uncounted \
+	04E2890595A7 \
+	VENDOR_STRING=License_Type:Bought;ipman,xps_uart16550,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_usb2_device xilinxd 2110.12 permanent uncounted \
+	A11F0103DC75 \
+	VENDOR_STRING=License_Type:Bought;ipman,xps_usb2_device,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_usb_host xilinxd 2110.12 permanent uncounted \
+	A92BE2F8679B \
+	VENDOR_STRING=License_Type:Bought;ipman,xps_usb_host,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+#IP CORES
+FEATURE 10_100_mb_eth_mac xilinxd 2110.12 permanent uncounted \
+	B225F2D7B453 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE apu_fpu_v2 xilinxd 2110.12 permanent uncounted 2F50B62A75CC \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE apu_fpu_virtex5_v1 xilinxd 2110.12 permanent uncounted \
+	2A331C3D638E VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE aurora_64b66b_v1 xilinxd 2110.12 permanent uncounted \
+	ECD29E896C94 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE aurora_64b66b_v2 xilinxd 2110.12 permanent uncounted \
+	C71D340E39D9 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE aurora_8b10b_v4 xilinxd 2110.12 permanent uncounted \
+	DFA97249AD06 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE aurora_v2 xilinxd 2110.12 permanent uncounted E4DC62210646 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE aurora_v3 xilinxd 2110.12 permanent uncounted F227F922D661 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE dvb_s2_fec_encoder_v1 xilinxd 2110.12 permanent uncounted \
+	EFEF2C5C8594 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE eth_avb_endpoint_v1 xilinxd 2110.12 permanent uncounted \
+	45C002673D2D VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE ethernet_statistics_v1 xilinxd 2110.12 permanent uncounted \
+	5E1E96F25741 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE ethernet_statistics_v2 xilinxd 2110.12 permanent uncounted \
+	29DF7EE53D69 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE ethernet_statistics_v3 xilinxd 2110.12 permanent uncounted \
+	90977298EB31 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE gig_eth_pcs_pma_v10 xilinxd 2110.12 permanent uncounted \
+	87096270236F VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE gig_eth_pcs_pma_v3_0 xilinxd 2110.12 permanent uncounted \
+	59D31D0A5DE8 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE gig_eth_pcs_pma_v4_0 xilinxd 2110.12 permanent uncounted \
+	96439056DA96 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE gig_eth_pcs_pma_v5_0 xilinxd 2110.12 permanent uncounted \
+	E58813964328 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE gig_eth_pcs_pma_v6 xilinxd 2110.12 permanent uncounted \
+	39EC99C55602 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE gig_eth_pcs_pma_v7 xilinxd 2110.12 permanent uncounted \
+	73CB327B43F2 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE gig_eth_pcs_pma_v8 xilinxd 2110.12 permanent uncounted \
+	AD625B696062 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE gig_eth_pcs_pma_v9 xilinxd 2110.12 permanent uncounted \
+	0742ECA7FD4A VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE most_nic_v1 xilinxd 2110.12 permanent uncounted 8C3C1C2FA0D3 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE opb_ethernet_v1 xilinxd 2110.12 permanent uncounted \
+	FE48CCB528FE VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_ethernet_v1_00_j xilinxd 2110.12 permanent uncounted \
+	E38107F6815C VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_ethernet_v1_00_k xilinxd 2110.12 permanent uncounted \
+	FEF2AE46700D VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_ethernet_v1_00_l xilinxd 2110.12 permanent uncounted \
+	C5B02982F796 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_ethernet_v1_00_m xilinxd 2110.12 permanent uncounted \
+	A6D340AACEA7 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_ethernet_v1_01_a xilinxd 2110.12 permanent uncounted \
+	09B82916BDF9 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_ethernetlite_v1 xilinxd 2110.12 permanent uncounted \
+	B6FCC44FF818 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_ethernetlite_v1_00_a xilinxd 2110.12 permanent uncounted \
+	7F9768188501 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_iic_v1 xilinxd 2110.12 permanent uncounted 8552213E9467 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE opb_iic_v1_01_a xilinxd 2110.12 permanent uncounted \
+	DBE96D07CD2E VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_iic_v1_01_b xilinxd 2110.12 permanent uncounted \
+	9E53203ACE8B VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_pci_v1 xilinxd 2110.12 permanent uncounted C10CEC5678BE \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE opb_pci_v1_00_a xilinxd 2110.12 permanent uncounted \
+	B0952A790824 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_pci_v1_00_b xilinxd 2110.12 permanent uncounted \
+	C4EDFD40C5A9 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_pci_v1_00_c xilinxd 2110.12 permanent uncounted \
+	8D348CDFCAD2 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_uart16550_v1 xilinxd 2110.12 permanent uncounted \
+	96A45F0645BF VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_uart16550_v1_00_c xilinxd 2110.12 permanent uncounted \
+	74F4DF369B39 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE opb_usb2_device_v1 xilinxd 2110.12 permanent uncounted \
+	6B9756159E4D VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pci32_sp_v3_0 xilinxd 2110.12 permanent uncounted \
+	EED28F2D669F VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pci32_sp_v3_1 xilinxd 2110.12 permanent uncounted \
+	4457B981E582 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pci32_v4 xilinxd 2110.12 permanent uncounted 3C74AF1CDB2E \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pci32_vx_v3_0 xilinxd 2110.12 permanent uncounted \
+	B75427C0EC71 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pci32_vx_v3_1 xilinxd 2110.12 permanent uncounted \
+	2D629D644D0A VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pci64_sp_v3_0 xilinxd 2110.12 permanent uncounted \
+	826223533D33 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pci64_sp_v3_1 xilinxd 2110.12 permanent uncounted \
+	74AE3D2364BE VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pci64_v3_0 xilinxd 2110.12 permanent uncounted AC9A3037CFFE \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pci64_v3_1 xilinxd 2110.12 permanent uncounted C4444F61623E \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pci64_v4 xilinxd 2110.12 permanent uncounted 9D1C6A522C83 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pci64_vx_v3_0 xilinxd 2110.12 permanent uncounted \
+	621F97D60B0D VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pci64_vx_v3_1 xilinxd 2110.12 permanent uncounted \
+	96C8752E0C16 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pci_express_v3 xilinxd 2110.12 permanent uncounted \
+	C489901D7F57 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pcie_blk_plus_v1 xilinxd 2110.12 permanent uncounted \
+	59F5706B1103 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE pcie_pipe_v1 xilinxd 2110.12 permanent uncounted 4547A1019619 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pcix64_v5_0 xilinxd 2110.12 permanent uncounted D916C04293C6 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pcix64_v5_1 xilinxd 2110.12 permanent uncounted 1BEA1693FC82 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pcix_v6 xilinxd 2110.12 permanent uncounted 780105037FE8 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pcix_v6 xilinxd 2110.12 permanent uncounted 780105037FE8 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pl4_lite_v3 xilinxd 2110.12 permanent uncounted 289E2D956E22 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pl4_lite_v4 xilinxd 2110.12 permanent uncounted 571D8BBE6FBA \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pl4_v6 xilinxd 2110.12 permanent uncounted E83F901BE87F \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pl4_v7_0 xilinxd 2110.12 permanent uncounted 86BA774494C1 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pl4_v7_1 xilinxd 2110.12 permanent uncounted 9916DDC171AA \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pl4_v7_2 xilinxd 2110.12 permanent uncounted C6092732F6F7 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pl4_v7_3 xilinxd 2110.12 permanent uncounted 43BB0D8F5368 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pl4_v7_4 xilinxd 2110.12 permanent uncounted B4DF8F30C0F5 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pl4_v8 xilinxd 2110.12 permanent uncounted C17DEC2D2C27 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE pl4_v9 xilinxd 2110.12 permanent uncounted 8A5C74CCBEF7 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE plb_ethernet_v1 xilinxd 2110.12 permanent uncounted \
+	D471AB90BA63 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE plb_ethernet_v1_00_a xilinxd 2110.12 permanent uncounted \
+	45EA0BD74635 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE plb_pci_v1 xilinxd 2110.12 permanent uncounted 20E15781EEE5 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE plb_temac_v1 xilinxd 2110.12 permanent uncounted 6BD77C2A8874 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE plb_uart16550_v1_00_b xilinxd 2110.12 permanent uncounted \
+	1ADA5C71181A VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE plb_uart16550_v1_00_c xilinxd 2110.12 permanent uncounted \
+	442D5E152D6B VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE plbv46_pci_v1 xilinxd 2110.12 permanent uncounted \
+	07AE929D13E2 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rach_3gpp_v1 xilinxd 2110.12 permanent uncounted B77B40364FB5 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE rio_log_io_v3 xilinxd 2110.12 permanent uncounted \
+	2A2510AA92F6 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rio_log_io_v4 xilinxd 2110.12 permanent uncounted \
+	48EE3A92C9D5 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rio_log_io_v5 xilinxd 2110.12 permanent uncounted \
+	767FB042D49C VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rs_decoder_v4_0 xilinxd 2110.12 permanent uncounted \
+	DD4A4535FF1F VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rs_decoder_v4_1 xilinxd 2110.12 permanent uncounted \
+	9B957498FCE8 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rs_decoder_v5_0 xilinxd 2110.12 permanent uncounted \
+	EB7D0F3D14EA VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rs_decoder_v5_1 xilinxd 2110.12 permanent uncounted \
+	E82272F82967 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rs_decoder_v6 xilinxd 2110.12 permanent uncounted \
+	924CDF8DEC03 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rs_encoder_v4_0 xilinxd 2110.12 permanent uncounted \
+	2023F647E2AC VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rs_encoder_v4_1 xilinxd 2110.12 permanent uncounted \
+	78E78F44F1F3 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rs_encoder_v5_0 xilinxd 2110.12 permanent uncounted \
+	71CD90DF0B8B VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE rs_encoder_v6 xilinxd 2110.12 permanent uncounted \
+	B07F0C3FC35C VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE s6_pcie_v1 xilinxd 2110.12 permanent uncounted 874E2842D377 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE searcher_3gpp_v1 xilinxd 2110.12 permanent uncounted \
+	FD2AFA6DEBD1 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE sid_v3_0 xilinxd 2110.12 permanent uncounted 9B0F2B074F21 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE sid_v3_1 xilinxd 2110.12 permanent uncounted D3B2EDCABAB8 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE sid_v4_0 xilinxd 2110.12 permanent uncounted 76F9CB505F0B \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE sid_v5 xilinxd 2110.12 permanent uncounted B902C49BFFA9 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE soft_temac_wrap_v2 xilinxd 2110.12 permanent uncounted \
+	0C260E3C5466 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE soft_temac_wrap_v2 xilinxd 2110.12 permanent uncounted \
+	0C260E3C5466 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE soft_temac_wrap_v2 xilinxd 2110.12 permanent uncounted \
+	0C260E3C5466 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE spi3_link_v4 xilinxd 2110.12 permanent uncounted 8D27F3A47E0A \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE spi3_link_v5 xilinxd 2110.12 permanent uncounted B1164424031D \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE srio_phy_v3 xilinxd 2110.12 permanent uncounted 027486D0FAB8 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE srio_phy_v4 xilinxd 2110.12 permanent uncounted ACCEE04DC72C \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE srio_phy_v5 xilinxd 2110.12 permanent uncounted 8102928A6894 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE tcc_dec_802_16e_v3 xilinxd 2110.12 permanent uncounted \
+	2E3C8CEC1942 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_decoder_3gpp_v1 xilinxd 2110.12 permanent uncounted \
+	1D5B338F75BF VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_decoder_3gpp_v2 xilinxd 2110.12 permanent uncounted \
+	E0B921527C43 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_decoder_3gpp_v3 xilinxd 2110.12 permanent uncounted \
+	1A3F7F454F0B VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_decoder_v1_0 xilinxd 2110.12 permanent uncounted \
+	485CEE23B503 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_decoder_v2 xilinxd 2110.12 permanent uncounted \
+	DA8E5764C7AF VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_enc_802_16e_v1 xilinxd 2110.12 permanent uncounted \
+	ABFF8107E7F8 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_enc_802_16e_v2 xilinxd 2110.12 permanent uncounted \
+	A5A44C01265C VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_enc_802_16e_v3 xilinxd 2110.12 permanent uncounted \
+	EAD6BFC3FDF8 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_encoder_3gpp2_v2 xilinxd 2110.12 permanent uncounted \
+	413137DDFEBC VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_encoder_3gpp_v1 xilinxd 2110.12 permanent uncounted \
+	3D343A8AFBA5 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_encoder_3gpp_v2 xilinxd 2110.12 permanent uncounted \
+	661D00FDE221 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_encoder_3gpp_v3 xilinxd 2110.12 permanent uncounted \
+	F89E06209DE1 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_encoder_3gpplte_v1 xilinxd 2110.12 permanent uncounted \
+	715586E85715 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_encoder_3gpplte_v2 xilinxd 2110.12 permanent uncounted \
+	E7B33677AD35 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_encoder_3gpplte_v3 xilinxd 2110.12 permanent uncounted \
+	2FD7B2C29BD5 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_encoder_v1_0 xilinxd 2110.12 permanent uncounted \
+	193D7F4585A4 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tcc_encoder_v2 xilinxd 2110.12 permanent uncounted \
+	AAE83E886332 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE ten_gig_eth_mac_v3_0 xilinxd 2110.12 permanent uncounted \
+	96AAC0F3A83E VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE ten_gig_eth_mac_v4_0 xilinxd 2110.12 permanent uncounted \
+	5D5CF7435DC8 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE ten_gig_eth_mac_v5_0 xilinxd 2110.12 permanent uncounted \
+	95139E5FCE3E VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE ten_gig_eth_mac_v6 xilinxd 2110.12 permanent uncounted \
+	0E3C400EF346 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE ten_gig_eth_mac_v7 xilinxd 2110.12 permanent uncounted \
+	AA3799FC6C46 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE ten_gig_eth_mac_v8 xilinxd 2110.12 permanent uncounted \
+	D0D23AA2158E VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE ten_gig_eth_mac_v9 xilinxd 2110.12 permanent uncounted \
+	94863B38DE96 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tri_mode_eth_mac_v1_1 xilinxd 2110.12 permanent uncounted \
+	6F758DBE7324 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tri_mode_eth_mac_v2 xilinxd 2110.12 permanent uncounted \
+	774EAF955FFA VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tri_mode_eth_mac_v3 xilinxd 2110.12 permanent uncounted \
+	1F02A9D2444A VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE tri_mode_eth_mac_v4 xilinxd 2110.12 permanent uncounted \
+	82A34BC3513E VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE usb2_device_v1 xilinxd 2110.12 permanent uncounted \
+	D936DC3D1C40 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE v4_emac_v4 xilinxd 2110.12 permanent uncounted A4E1DC2B3B56 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v5_emac_v1 xilinxd 2110.12 permanent uncounted DD244B25FFBD \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v6_emac_v1 xilinxd 2110.12 permanent uncounted 51C9538D1468 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v6_pcie_v1 xilinxd 2110.12 permanent uncounted CF05F3BB6DD6 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v_ccm_v1 xilinxd 2110.12 permanent uncounted BDEC2BC1CDA0 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v_cfa_v1 xilinxd 2110.12 permanent uncounted A161EE8F409F \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v_gamma_v1 xilinxd 2110.12 permanent uncounted 859ACBAB6937 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v_manr_v1_0 xilinxd 2110.12 permanent uncounted 96C37840DE52 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v_osd_v1_0 xilinxd 2110.12 permanent uncounted C5106C5F5416 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v_rgb2ycrcb_v2 xilinxd 2110.12 permanent uncounted \
+	781588E41579 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE v_scaler_v1_0 xilinxd 2110.12 permanent uncounted \
+	7C50A829F2FA VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE v_spc_v1 xilinxd 2110.12 permanent uncounted 140230DB78D3 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v_stats xilinxd 2110.12 permanent uncounted 69DB480AAE8D \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v_vdma_v1_0 xilinxd 2110.12 permanent uncounted E0036E50074F \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE v_ycrcb2rgb_v2 xilinxd 2110.12 permanent uncounted \
+	62D38EFE128E VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE viterbi_v3_0 xilinxd 2110.12 permanent uncounted ADD076247316 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE viterbi_v4_0 xilinxd 2110.12 permanent uncounted CFCC6D941C58 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE viterbi_v5 xilinxd 2110.12 permanent uncounted EB8C2B5DE592 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE viterbi_v6 xilinxd 2110.12 permanent uncounted 983CC8E792E2 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE viterbi_v7 xilinxd 2110.12 permanent uncounted 38FDE129D3CA \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xaui_v3_0 xilinxd 2110.12 permanent uncounted 9F620F457734 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xaui_v4_0 xilinxd 2110.12 permanent uncounted 7901FA382629 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xaui_v5_0 xilinxd 2110.12 permanent uncounted 450611E7CDD6 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xaui_v6 xilinxd 2110.12 permanent uncounted 91FB5EF1B6E7 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xaui_v7 xilinxd 2110.12 permanent uncounted 63BEC712A502 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xaui_v8 xilinxd 2110.12 permanent uncounted 6E5BC00748B5 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xps_ethernetlite_v1 xilinxd 2110.12 permanent uncounted \
+	34ACF0A914C1 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_iic_v1 xilinxd 2110.12 permanent uncounted 4D5EB5133C34 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xps_iic_v2 xilinxd 2110.12 permanent uncounted 6EE984B9F3C8 \
+	VENDOR_STRING=License_Type:Bought HOSTID=ANY ISSUER=TBE TS_OK
+FEATURE xps_ll_temac_v1 xilinxd 2110.12 permanent uncounted \
+	7D665FB969EA VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_ll_temac_v2 xilinxd 2110.12 permanent uncounted \
+	B874A6102E8B VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_most_nic_v1 xilinxd 2110.12 permanent uncounted \
+	A71A67AFB0E3 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_uart16550_v1 xilinxd 2110.12 permanent uncounted \
+	68F9A54575F2 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_usb2_device_v1 xilinxd 2110.12 permanent uncounted \
+	7756ECA93AF4 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_usb2_device_v2 xilinxd 2110.12 permanent uncounted \
+	711551A373A0 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+FEATURE xps_usb_host_v1 xilinxd 2110.12 permanent uncounted \
+	3F7AC1E0FBE3 VENDOR_STRING=License_Type:Bought HOSTID=ANY \
+	ISSUER=TBE TS_OK
+INCREMENT 10_100_mb_eth_mac xilinxd 2025.01 permanent uncounted \
+	99AAB9A840D1 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,10_100_mb_eth_mac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT apu_fpu_sp xilinxd 2025.01 permanent uncounted 2D6367B604C8 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,apu_fpu_sp,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT aurora xilinxd 2025.01 permanent uncounted D8798CEC5CEA \
+	VENDOR_STRING=License_Type:Bought;something@my.door,aurora,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT aurora_64b66b xilinxd 2025.01 permanent uncounted \
+	B8FB803A03A8 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,aurora_64b66b,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT aurora_8b10b xilinxd 2025.01 permanent uncounted \
+	905F3827E0ED \
+	VENDOR_STRING=License_Type:Bought;something@my.door,aurora_8b10b,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT axi_ethernet_avb xilinxd 2025.01 permanent uncounted \
+	950C8C23E213 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,axi_ethernet_avb,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT axi_ethernet_soft_10_100 xilinxd 2025.01 permanent \
+	uncounted D81FB36BF813 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,axi_ethernet_soft_10_100,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT axi_ethernet_soft_tri_mode xilinxd 2025.01 permanent \
+	uncounted B87CB1934EFA \
+	VENDOR_STRING=License_Type:Bought;something@my.door,axi_ethernet_soft_tri_mode,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT axi_usb2_device xilinxd 2025.01 permanent uncounted \
+	1E13609C7237 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,axi_usb2_device,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT displayport xilinxd 2025.01 permanent uncounted \
+	5987C7FFC1BE \
+	VENDOR_STRING=License_Type:Bought;something@my.door,displayport,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT dvb_s2_fec_encoder xilinxd 2025.01 permanent uncounted \
+	B7B85ADB3959 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,dvb_s2_fec_encoder,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT eth_avb_endpoint xilinxd 2025.01 permanent uncounted \
+	2871CEC821BA \
+	VENDOR_STRING=License_Type:Bought;something@my.door,eth_avb_endpoint,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT ethernet_statistics xilinxd 2025.01 permanent uncounted \
+	E6CE537E8744 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,ethernet_statistics,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT gig_eth_pcs_pma xilinxd 2025.01 permanent uncounted \
+	2583923AA2CC \
+	VENDOR_STRING=License_Type:Bought;something@my.door,gig_eth_pcs_pma,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT most_nic xilinxd 2025.01 permanent uncounted 19A8B4A5676B \
+	VENDOR_STRING=License_Type:Bought;something@my.door,most_nic,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT opb_ethernet xilinxd 2025.01 permanent uncounted \
+	3BA07A2D71C0 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,opb_ethernet,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT opb_ethernetlite xilinxd 2025.01 permanent uncounted \
+	F966217F3932 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,opb_ethernetlite,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT opb_iic xilinxd 2025.01 permanent uncounted 2E580E7EC0DC \
+	VENDOR_STRING=License_Type:Bought;something@my.door,opb_iic,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT opb_pci xilinxd 2025.01 permanent uncounted B353F664E06C \
+	VENDOR_STRING=License_Type:Bought;something@my.door,opb_pci,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT opb_uart16550 xilinxd 2025.01 permanent uncounted \
+	3A47EB826E32 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,opb_uart16550,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT opb_usb2_device xilinxd 2025.01 permanent uncounted \
+	5112E8DA084D \
+	VENDOR_STRING=License_Type:Bought;something@my.door,opb_usb2_device,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pci32 xilinxd 2025.01 permanent uncounted 20B840913BF6 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pci32,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pci32_sp xilinxd 2025.01 permanent uncounted 9FEBF1AB2E3F \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pci32_sp,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pci32_spng xilinxd 2025.01 permanent uncounted 7E26C7D53374 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pci32_spng,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pci32_vx xilinxd 2025.01 permanent uncounted 94C458D68938 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pci32_vx,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pci64 xilinxd 2025.01 permanent uncounted 575B8002816C \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pci64,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pci64_sp xilinxd 2025.01 permanent uncounted 8080CEF537E3 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pci64_sp,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pci64_vx xilinxd 2025.01 permanent uncounted DADA17225A88 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pci64_vx,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pci_express xilinxd 2025.01 permanent uncounted \
+	66BBDFF935F4 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pci_express,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pcie_blk_plus xilinxd 2025.01 permanent uncounted \
+	A586FF7FF861 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pcie_blk_plus,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pcie_pipe xilinxd 2025.01 permanent uncounted C2FB937B1161 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pcie_pipe,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pcix xilinxd 2025.01 permanent uncounted 0281CC062658 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pcix,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pcix64 xilinxd 2025.01 permanent uncounted 0E9AB5CC663D \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pcix64,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pl4 xilinxd 2025.01 permanent uncounted 7CC40AE6EA88 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pl4,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT pl4_lite xilinxd 2025.01 permanent uncounted 5622D53396F6 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,pl4_lite,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT plb_ethernet xilinxd 2025.01 permanent uncounted \
+	9EFBBB7DF25D \
+	VENDOR_STRING=License_Type:Bought;something@my.door,plb_ethernet,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT plb_pci xilinxd 2025.01 permanent uncounted 52C79D712E64 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,plb_pci,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT plb_temac xilinxd 2025.01 permanent uncounted 2C628258D7D8 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,plb_temac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT plb_uart16550 xilinxd 2025.01 permanent uncounted \
+	137867748C18 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,plb_uart16550,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT plbv46_pci xilinxd 2025.01 permanent uncounted 9464B02790C2 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,plbv46_pci,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT rach_3gpp xilinxd 2025.01 permanent uncounted B2A40ED92619 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,rach_3gpp,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT rio_log_io xilinxd 2025.01 permanent uncounted AF9E6AED565F \
+	VENDOR_STRING=License_Type:Bought;something@my.door,rio_log_io,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT rs_decoder xilinxd 2025.01 permanent uncounted 369DF4230FEA \
+	VENDOR_STRING=License_Type:Bought;something@my.door,rs_decoder,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT rs_encoder xilinxd 2025.01 permanent uncounted E3223028EE13 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,rs_encoder,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT rxaui xilinxd 2025.01 permanent uncounted 36F0FCF50879 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,rxaui,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT s6_pcie xilinxd 2025.01 permanent uncounted 4B80C728FB65 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,s6_pcie,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT searcher_3gpp xilinxd 2025.01 permanent uncounted \
+	05BFD5463FC3 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,searcher_3gpp,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT sid xilinxd 2025.01 permanent uncounted 801C31A16FF6 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,sid,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT soft_temac_wrap xilinxd 2025.01 permanent uncounted \
+	1F4AC6F048AC \
+	VENDOR_STRING=License_Type:Bought;something@my.door,soft_temac_wrap,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT spi3_link xilinxd 2025.01 permanent uncounted 215B6C0C5141 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,spi3_link,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT srio_phy xilinxd 2025.01 permanent uncounted 67DAA6A8E961 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,srio_phy,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT tcc_dec_802_16e xilinxd 2025.01 permanent uncounted \
+	6C8254E6EAB2 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,tcc_dec_802_16e,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT tcc_decoder xilinxd 2025.01 permanent uncounted \
+	0F5EF32950E1 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,tcc_decoder,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT tcc_decoder_3gpp xilinxd 2025.01 permanent uncounted \
+	3594C99C5553 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,tcc_decoder_3gpp,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT tcc_enc_802_16e xilinxd 2025.01 permanent uncounted \
+	91AF76604671 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,tcc_enc_802_16e,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT tcc_encoder xilinxd 2025.01 permanent uncounted \
+	423AC94689D5 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,tcc_encoder,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT tcc_encoder_3gpp xilinxd 2025.01 permanent uncounted \
+	D44D2B994D63 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,tcc_encoder_3gpp,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT tcc_encoder_3gpp2 xilinxd 2025.01 permanent uncounted \
+	6E1EB0539897 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,tcc_encoder_3gpp2,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT tcc_encoder_3gpplte xilinxd 2025.01 permanent uncounted \
+	399FA768EF5E \
+	VENDOR_STRING=License_Type:Bought;something@my.door,tcc_encoder_3gpplte,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT ten_gig_eth_mac xilinxd 2025.01 permanent uncounted \
+	1FC6C4C440C0 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,ten_gig_eth_mac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT ten_gig_eth_pcs_pma xilinxd 2025.01 permanent uncounted \
+	9D91F32CE355 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,ten_gig_eth_pcs_pma,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT tri_mode_eth_mac xilinxd 2025.01 permanent uncounted \
+	BB44280604FE \
+	VENDOR_STRING=License_Type:Bought;something@my.door,tri_mode_eth_mac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT tri_mode_eth_mac xilinxd 2025.01 permanent uncounted \
+	BB44280604FE \
+	VENDOR_STRING=License_Type:Bought;something@my.door,tri_mode_eth_mac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT usb2_device xilinxd 2025.01 permanent uncounted \
+	79334503C7F9 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,usb2_device,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v4_emac xilinxd 2025.01 permanent uncounted A41994D2D28C \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v4_emac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v5_emac xilinxd 2025.01 permanent uncounted 8F2C972B6BEA \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v5_emac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v6_emac xilinxd 2025.01 permanent uncounted E3169678645C \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v6_emac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v6_pcie xilinxd 2025.01 permanent uncounted CFDDE6872501 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v6_pcie,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_ccm xilinxd 2025.01 permanent uncounted 5F34B01D6860 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_ccm,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_cfa xilinxd 2025.01 permanent uncounted FA56FC68E83E \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_cfa,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_enhance xilinxd 2025.01 permanent uncounted 2AF1009C0E42 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_enhance,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_gamma xilinxd 2025.01 permanent uncounted C6ADE399937C \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_gamma,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_ic xilinxd 2025.01 permanent uncounted 43BCFC409FC1 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_ic,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_manr xilinxd 2025.01 permanent uncounted 4ECDCA65615C \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_manr,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_noise xilinxd 2025.01 permanent uncounted 0EEA1EEE5BCA \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_noise,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_osd xilinxd 2025.01 permanent uncounted 1BA33E11C5DC \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_osd,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_rgb2ycrcb xilinxd 2025.01 permanent uncounted \
+	32410D190047 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_rgb2ycrcb,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_scaler xilinxd 2025.01 permanent uncounted D48E62FCD48E \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_scaler,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_spc xilinxd 2025.01 permanent uncounted AC6164A292FA \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_spc,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_stats xilinxd 2025.01 permanent uncounted BA06D939E68E \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_stats,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_timebase xilinxd 2025.01 permanent uncounted F1A7245D3B81 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_timebase,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_vdma xilinxd 2025.01 permanent uncounted A0758E1CAA51 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_vdma,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT v_ycrcb2rgb xilinxd 2025.01 permanent uncounted \
+	46BCC5010A3F \
+	VENDOR_STRING=License_Type:Bought;something@my.door,v_ycrcb2rgb,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT viterbi xilinxd 2025.01 permanent uncounted EDADBAA9F59B \
+	VENDOR_STRING=License_Type:Bought;something@my.door,viterbi,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xaui xilinxd 2025.01 permanent uncounted 1C22427CD989 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,xaui,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_ethernetlite xilinxd 2025.01 permanent uncounted \
+	7DB59E033D5B \
+	VENDOR_STRING=License_Type:Bought;something@my.door,xps_ethernetlite,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_iic xilinxd 2025.01 permanent uncounted CC878ECAF4D2 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,xps_iic,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_ll_temac xilinxd 2025.01 permanent uncounted \
+	59F97C1F6F5E \
+	VENDOR_STRING=License_Type:Bought;something@my.door,xps_ll_temac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_most_nic xilinxd 2025.01 permanent uncounted \
+	244FD25F5F20 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,xps_most_nic,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_uart16550 xilinxd 2025.01 permanent uncounted \
+	2CED0A5522E3 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,xps_uart16550,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_usb2_device xilinxd 2025.01 permanent uncounted \
+	60B5BA541890 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,xps_usb2_device,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK
+INCREMENT xps_usb_host xilinxd 2025.01 permanent uncounted \
+	BD101E45D132 \
+	VENDOR_STRING=License_Type:Bought;something@my.door,xps_usb_host,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER=TBE TS_OK

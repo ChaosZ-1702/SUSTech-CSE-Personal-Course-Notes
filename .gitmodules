@@ -2,3 +2,6 @@
 	path = CS207 Digital Logic/Project
 	url = https://github.com/ChaosZ-1702/CS207-2024Fall-Project-2
 	branch = main
+[submodule "CS202 Computer Organization/Project"]
+	path = CS202 Computer Organization/Project
+	url = https://github.com/suozhe923/CPU

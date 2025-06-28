@@ -5,3 +5,9 @@
 [submodule "CS202 Computer Organization/Project"]
 	path = CS202 Computer Organization/Project
 	url = https://github.com/suozhe923/CPU
+[submodule "CS307 Principles of Database Systems/Project2/Project"]
+	path = CS307 Principles of Database Systems/Project2/Project
+	url = https://github.com/suozhe923/DBProject2
+[submodule "CS307 Principles of Database Systems/Project2/demo"]
+	path = CS307 Principles of Database Systems/Project2/demo
+	url = https://github.com/CS307-Database/engine-project

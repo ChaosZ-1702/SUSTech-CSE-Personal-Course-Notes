@@ -11,3 +11,6 @@
 [submodule "CS307 Principles of Database Systems/Project2/demo"]
 	path = CS307 Principles of Database Systems/Project2/demo
 	url = https://github.com/CS307-Database/engine-project
+[submodule "CS323 Compilers/Project"]
+	path = CS323 Compilers/Project
+	url = https://github.com/ChaosZ-1702/CS323-Personal-Projects

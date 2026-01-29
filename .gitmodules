@@ -14,3 +14,7 @@
 [submodule "CS323 Compilers/Project"]
 	path = CS323 Compilers/Project
 	url = https://github.com/ChaosZ-1702/CS323-Personal-Projects
+[submodule "CS309 Object-oriented Analysis and Design/Project"]
+	path = CS309 Object-oriented Analysis and Design/Project
+	url = https://github.com/ChaosZ-1702/CS309-Personal-Labs
+	branch = project
